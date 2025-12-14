@@ -1,3 +1,4 @@
+/* Core styles */
 body{
     font-family: sans-serif;
 }
@@ -7,6 +8,14 @@ body{
     margin: 0 auto;
 }
 
+.to-uppercase{
+    text-transform: uppercase;
+}
+
+.clearfix{
+    clear: both;
+}
+/*Main header styles*/
 .main-header__brand{
     display: inline-block;
     vertical-align: middle;
@@ -41,4 +50,92 @@ body{
 
 .main-navigation__item.active a{
     color: #efb6df;
+}
+
+/* Main section */
+.main-section{
+    padding: 100px 30px;
+}
+
+.main-section > div{
+    width: 50%;
+    float: left;
+}
+
+.main-section__image{
+    text-align: right;
+}
+
+.main-section__welcome{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #797979;
+}
+
+.main-section__introduction{
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #05364e;
+}
+
+.main-section__position{
+    color: #05364e;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.main-section__social-networks a{
+    color: #8fa1aa;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.main-section__social-networks a:hover{
+    color: #1c44e4;
+}
+
+.main-section__action{
+    margin-top: 30px;
+    border: none;
+    background-color: #1c44e4;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Statistics section */
+.statistics{
+    padding-top: 100px;
+
+}
+
+.statistics__item{
+    display: inline-block;
+    width: 150px;
+    background-color: #f8faff;
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+
+.statistics__number{
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: #1c44e4;
+}
+
+.statistics__title{
+    font-size: 16px;
+    color: #797979;
+    font-weight: 300;
 }
