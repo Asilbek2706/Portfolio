@@ -375,6 +375,7 @@ body{
     position: absolute;
     bottom: 0;
     left: 40px;
+    color: white;
     visibility: hidden;
 }
 
