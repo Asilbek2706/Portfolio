@@ -369,6 +369,7 @@ body{
     height: 100%;
     background: rgba(19, 69, 230, 0.9);
     visibility: hidden;
+    z-index: 1;
 }
 
 .portfolio-item__info {
