@@ -1,6 +1,7 @@
 /* Core styles */
 body{
     font-family: sans-serif;
+    margin: 0;
 }
 
 .container{
@@ -46,13 +47,18 @@ body{
 
 .button{
     border: none;
-    background-color: #1c44e4;
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100% );
+    background-size: 200% auto;
     color: #ffffff;
     font-weight: 500;
     font-size: 14px;
     padding: 20px 40px;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.button:hover{
+    background-position: right center;
 }
 
 /*Main header styles*/
@@ -103,6 +109,13 @@ body{
 }
 
 /* Main section */
+.main-banner{
+    background: url(../images/background.jpg) no-repeat top center;
+    background-position: center;
+    background-size: cover;
+    min-height: 890px;
+}
+
 .main-section{
     padding: 100px 30px;
 }
@@ -173,7 +186,9 @@ body{
 .statistics__number{
     font-size: 27px;
     margin-bottom: 5px;
-    color: #1c44e4;
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .statistics__title{
@@ -396,4 +411,85 @@ body{
     visibility: visible;
     bottom: 24px;
     left: 60px;
+}
+
+/* Blog section styles */
+.blog{
+    padding: 100px;
+}
+
+.blog-items{
+    margin-top: 50px;
+}
+
+.blog-item{
+    display: inline-block;
+    width: 30%;
+    margin-right: 3%;
+    box-sizing: border-box;
+}
+
+.blog-item:hover {
+    box-shadow: 0px 10px 20px rgb(5 54 77 / 10%);
+}
+
+.blog-item:hover .blog-item__info {
+    background-color: white;
+}
+
+.blog-item__image img{
+    width: 100%;
+}
+
+.blog-item__info{
+    background-color: #f8faff;
+    padding: 30px;
+    color: #797979;
+}
+
+.blog-item__main-info{
+    font-size: 14px;
+    margin-right: 30px;
+    font-weight: lighter;
+}
+
+.blog-item__info i{
+    margin-right: 5px;
+}
+
+.blog-item__title{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #05364d;
+    font-weight: 700;
+}
+
+.blog-item__description{
+    line-height: 27px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.blog-item__learn-more{
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.blog-item__learn-more:hover{
+    color: #ed239f;
+}
+
+/* Partners section styles */
+.partners{
+    padding-top: 100px;
+}
+
+.partner{
+    display: inline-block;
+    padding: 0 30px;
 }
