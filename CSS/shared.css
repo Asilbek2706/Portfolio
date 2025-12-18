@@ -167,12 +167,12 @@ body{
     color: #797979;
 }
 
-@media only screen and (max-width : 767px){
+@media only screen and (max-width : 991px){
     .container{
-        width: 92%;
+        width: 90%;
     }
 
-    /* Navigation */
+    /* Navigation menu */
     .main-navigation{
         display: none;
     }
@@ -180,5 +180,11 @@ body{
     /* Footer */
     .footer__navigation{
         display: none;
+    }
+}
+
+@media only screen and (max-width : 767px){
+    .container{
+        width: 92%;
     }
 }
