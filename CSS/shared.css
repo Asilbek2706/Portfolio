@@ -107,3 +107,62 @@ body{
 .main-navigation__item.active a{
     color: #efb6df;
 }
+
+/* Footer section styles */
+.footer{
+    padding: 100px 0;
+    margin-top: 50px;
+    background-color: #021017;
+    text-align: center;
+}
+
+.footer__brand img{
+    width: 115px;
+}
+
+.footer__navigation-items{
+    margin-bottom: 20px;
+}
+
+.footer__navigation-item{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.footer__navigation-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer__socials{
+    list-style: none;
+}
+
+.footer__social {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 36px;
+    color: #05364d;
+    font-size: 1rem;
+    margin-right: 12px;
+}
+
+.footer__social a{
+    color: #021017;
+}
+
+.footer__social:hover{
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+}
+
+.footer__social:hover i{
+    color: white;
+}
+
+.footer__text{
+    color: #797979;
+}
