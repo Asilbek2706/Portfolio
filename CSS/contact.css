@@ -21,18 +21,18 @@ input:focus{
     outline: 0;
 }
 
-.half-row{
-    width: 50%;
-    float: left;
-    box-sizing: border-box;
+.half-flex{
+    display: flex;
 }
 
 .contact__firstname{
     padding-right: 0.94rem;
+    flex: 1;
 }
 
 .contact__email{
     padding-left: 0.94rem;
+    flex: 1;
 }
 
 .contact__send{
@@ -40,8 +40,8 @@ input:focus{
 }
 
 @media only screen and (max-width: 991px){
-    .half-row{
-        width: 100%;
+    .half-flex{
+    flex-direction: column;
     }
 
     .contact__firstname,
